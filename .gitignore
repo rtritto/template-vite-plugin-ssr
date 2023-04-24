@@ -1,0 +1,15 @@
+.env*
+
+# yarn berry
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# build output
+.dist
+
+# cache
+.cache

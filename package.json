@@ -1,0 +1,26 @@
+{
+  "name": "template-vite-plugin-ssr",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "packageManager": "yarn@4.0.0-rc.42",
+  "scripts": {
+    "dev": "yarn vite",
+    "lint": "yarn eslint",
+    "od": "yarn outdated"
+  },
+  "dependencies": {
+    "solid-js": "^1.7.3",
+    "vite": "^4.3.1",
+    "vite-plugin-solid": "^2.7.0",
+    "vite-plugin-ssr": "^0.4.116"
+  },
+  "devDependencies": {
+    "@types/eslint": "^8",
+    "@types/node": "^18.16.0",
+    "@yarnpkg/sdks": "^3.0.0-rc.42",
+    "eslint": "^8.39.0",
+    "typescript": "^5.0.4"
+  }
+}
