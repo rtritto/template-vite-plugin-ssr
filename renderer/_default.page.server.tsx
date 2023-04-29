@@ -18,7 +18,7 @@ function render(pageContext: PageContext) {
   stampPipe(pipe, 'node-stream')
 
   // See https://vite-plugin-ssr.com/head
-  const { documentProps } = pageContext
+  const { documentProps } = pageContext.exports
   const title = (documentProps && documentProps.title) || 'Vite SSR app'
   const description = (documentProps && documentProps.description) || 'App using Vite + vite-plugin-ssr'
 
