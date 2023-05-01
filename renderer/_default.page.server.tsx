@@ -5,16 +5,11 @@ import { PageLayout } from './PageLayout'
 import logoUrl from './logo.svg'
 import type { PageContext } from './types'
 
-export { render }
-export { passToClient }
-
 // See https://vite-plugin-ssr.com/data-fetching
 const passToClient = ['pageProps', 'documentProps']
 
 function render(pageContext: PageContext) {
-  const { Page, pageProps } = pageContext
-
-  const { pipe } = renderToStream(() => <PageLayout route={() => ({ Page, pageProps })} />)
+  const { pipe } = renderToStream(() => <PageLayout pageContext={pageContext} />)
   stampPipe(pipe, 'node-stream')
 
   // See https://vite-plugin-ssr.com/head
@@ -36,4 +31,9 @@ function render(pageContext: PageContext) {
         <div id="page-view">${pipe}</div>
       </body>
     </html>`
+}
+
+export {
+  passToClient,
+  render
 }

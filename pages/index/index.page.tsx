@@ -2,7 +2,9 @@ import type { Component } from 'solid-js'
 
 import { Counter } from './Counter'
 
-const Page: Component = (pageProps) => {
+const Page: Component<{
+  test: string
+}> = (pageProps) => {
   return (
     <>
       <h1>{pageProps.test}</h1>
