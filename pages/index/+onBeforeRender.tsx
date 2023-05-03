@@ -1,6 +1,6 @@
 // https://vite-plugin-ssr.com/data-fetching
 
-export async function onBeforeRender() {
+async function onBeforeRender() {
   return {
     pageContext: {
       pageProps: {
@@ -10,4 +10,4 @@ export async function onBeforeRender() {
   }
 }
 
-export const passToClient = ['pageProps']
+export default onBeforeRender

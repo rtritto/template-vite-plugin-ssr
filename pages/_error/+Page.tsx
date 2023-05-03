@@ -1,3 +1,5 @@
+// https://vite-plugin-ssr.com/error-page
+
 import type { Component } from 'solid-js'
 
 const Page: Component<{ is404: boolean }> = ({ is404 }) => {
@@ -18,4 +20,4 @@ const Page: Component<{ is404: boolean }> = ({ is404 }) => {
   }
 }
 
-export { Page }
+export default Page
