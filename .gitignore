@@ -1,6 +1,7 @@
 .env*
 
 # yarn berry
+.pnp.*
 .yarn/*
 !.yarn/patches
 !.yarn/plugins
