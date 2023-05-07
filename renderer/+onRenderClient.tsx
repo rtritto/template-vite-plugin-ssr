@@ -24,12 +24,10 @@ async function onRenderClient(pageContext: PageContextClient) {
 
     setPageContext(pageContext)
 
-    const container = document.getElementById('page-view')!
-    if (pageContext.isHydration) {
-      dispose = hydrate(() => <PageLayout pageContext={pageContextStore} />, container)
-    } else {
-      dispose = render(() => <PageLayout pageContext={pageContextStore} />, container)
-    }
+    const container = document.querySelector('#page-view')!
+    dispose = pageContext.isHydration
+      ? hydrate(() => <PageLayout pageContext={pageContextStore} />, container)
+      : render(() => <PageLayout pageContext={pageContextStore} />, container)
     rendered = true
   }
 }
