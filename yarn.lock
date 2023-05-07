@@ -413,6 +413,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@brillout/picocolors@npm:^1.0.4":
+  version: 1.0.4
+  resolution: "@brillout/picocolors@npm:1.0.4"
+  checksum: 2a924c5e0daab30f08b06743547991af0ad3de8e4abce90ea13252714d85f444f0baefdf081404c75f4dc5ed0d478e3bb4c0dc0d71f7aea23954b81c3482041a
+  languageName: node
+  linkType: hard
+
 "@brillout/vite-plugin-import-build@npm:^0.2.16":
   version: 0.2.16
   resolution: "@brillout/vite-plugin-import-build@npm:0.2.16"
@@ -1041,17 +1048,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@yarnpkg/core@npm:^4.0.0-rc.42":
-  version: 4.0.0-rc.42
-  resolution: "@yarnpkg/core@npm:4.0.0-rc.42"
+"@yarnpkg/core@npm:^4.0.0-rc.43":
+  version: 4.0.0-rc.43
+  resolution: "@yarnpkg/core@npm:4.0.0-rc.43"
   dependencies:
     "@arcanis/slice-ansi": "npm:^1.1.1"
     "@types/semver": "npm:^7.1.0"
     "@types/treeify": "npm:^1.0.0"
-    "@yarnpkg/fslib": "npm:^3.0.0-rc.42"
-    "@yarnpkg/libzip": "npm:^3.0.0-rc.42"
-    "@yarnpkg/parsers": "npm:^3.0.0-rc.42"
-    "@yarnpkg/shell": "npm:^4.0.0-rc.42"
+    "@yarnpkg/fslib": "npm:^3.0.0-rc.43"
+    "@yarnpkg/libzip": "npm:^3.0.0-rc.43"
+    "@yarnpkg/parsers": "npm:^3.0.0-rc.43"
+    "@yarnpkg/shell": "npm:^4.0.0-rc.43"
     camelcase: "npm:^5.3.1"
     chalk: "npm:^3.0.0"
     ci-info: "npm:^3.2.0"
@@ -1070,49 +1077,49 @@ __metadata:
     treeify: "npm:^1.1.0"
     tslib: "npm:^2.4.0"
     tunnel: "npm:^0.0.6"
-  checksum: ade6292b16ab9e8e2e286497f26633e68e0513ad4ff07f8d1cb4a04f0209c29a97d15e76d07714042371bbcf7f35682bb2a1076e9fb0c665f9064cfa35f58566
+  checksum: 414ff3f00e05298b5518fcdd1bf712c4c6f1571d83e14b12bd7a01d885eb182c67673e02183862746681b6fd382cc5daf8e0519dc8b759043de33484c11db562
   languageName: node
   linkType: hard
 
-"@yarnpkg/fslib@npm:^3.0.0-rc.42":
-  version: 3.0.0-rc.42
-  resolution: "@yarnpkg/fslib@npm:3.0.0-rc.42"
+"@yarnpkg/fslib@npm:^3.0.0-rc.43":
+  version: 3.0.0-rc.43
+  resolution: "@yarnpkg/fslib@npm:3.0.0-rc.43"
   dependencies:
     tslib: "npm:^2.4.0"
-  checksum: bb396df895fb78ff5f9278fb1e936fac5e50624720f332a4bb3e5c1be6381b28eac0d410f20f93f54613c9308bf36a9d5375ea0e69da2adf0011414d1edf9eb0
+  checksum: afa543d4811fb41c8bbfcf2440165b0643e73dbf97d46ee588d8d71d237ea9e0eb8d88eae2077e5010129964f1b00a23dc06e7ed1cb06c96d7fc52036c0c5a74
   languageName: node
   linkType: hard
 
-"@yarnpkg/libzip@npm:^3.0.0-rc.42":
-  version: 3.0.0-rc.42
-  resolution: "@yarnpkg/libzip@npm:3.0.0-rc.42"
+"@yarnpkg/libzip@npm:^3.0.0-rc.43":
+  version: 3.0.0-rc.43
+  resolution: "@yarnpkg/libzip@npm:3.0.0-rc.43"
   dependencies:
     "@types/emscripten": "npm:^1.39.6"
-    "@yarnpkg/fslib": "npm:^3.0.0-rc.42"
+    "@yarnpkg/fslib": "npm:^3.0.0-rc.43"
     tslib: "npm:^2.4.0"
   peerDependencies:
-    "@yarnpkg/fslib": ^3.0.0-rc.42
-  checksum: cb4350c65a7e5834ae79c8ff138d70491011e312adb64bcf79c5b6962db2e14a48afd4c8b0f6568a5570aafee1185ec45ab8cf5c63ad1cc9c8c7d40a21aec8cb
+    "@yarnpkg/fslib": ^3.0.0-rc.43
+  checksum: 11212912dd60df600698b46ebc8fd827b63bf709f64e30ffd2fc04ec7e80ebfa1c009aaf09ba7e33a023ff5773c713f74c11784eae50cc4464b7b462e3c6330b
   languageName: node
   linkType: hard
 
-"@yarnpkg/parsers@npm:^3.0.0-rc.42":
-  version: 3.0.0-rc.42
-  resolution: "@yarnpkg/parsers@npm:3.0.0-rc.42"
+"@yarnpkg/parsers@npm:^3.0.0-rc.43":
+  version: 3.0.0-rc.43
+  resolution: "@yarnpkg/parsers@npm:3.0.0-rc.43"
   dependencies:
     js-yaml: "npm:^3.10.0"
     tslib: "npm:^2.4.0"
-  checksum: 0e0e466a1e2372d5300b7fee319648d75e4dd8eb8fe19b5b1f44c97c2d0a1df8aba11918b42f6a12408ac3fb01150a509257b9ed53fe931c44b1865a6195579e
+  checksum: 9ab1112c252e1f4bbba11c4dd7142dd1d8494d5f28795fd00ffd8041d72b51165daf6d2e7f63ce7f44451a0f1fe978c28713a178e5ad811b002e25593a532084
   languageName: node
   linkType: hard
 
-"@yarnpkg/sdks@npm:^3.0.0-rc.42":
-  version: 3.0.0-rc.42
-  resolution: "@yarnpkg/sdks@npm:3.0.0-rc.42"
+"@yarnpkg/sdks@npm:^3.0.0-rc.43":
+  version: 3.0.0-rc.43
+  resolution: "@yarnpkg/sdks@npm:3.0.0-rc.43"
   dependencies:
-    "@yarnpkg/core": "npm:^4.0.0-rc.42"
-    "@yarnpkg/fslib": "npm:^3.0.0-rc.42"
-    "@yarnpkg/parsers": "npm:^3.0.0-rc.42"
+    "@yarnpkg/core": "npm:^4.0.0-rc.43"
+    "@yarnpkg/fslib": "npm:^3.0.0-rc.43"
+    "@yarnpkg/parsers": "npm:^3.0.0-rc.43"
     chalk: "npm:^3.0.0"
     clipanion: "npm:^3.2.0-rc.10"
     comment-json: "npm:^2.2.0"
@@ -1120,16 +1127,16 @@ __metadata:
     tslib: "npm:^2.4.0"
   bin:
     sdks: ./lib/cli.js
-  checksum: ac8e299771c21e6b37b40dfc0ede4c14f0c232c39a647aaba47c433fa6b59f36279f8552aac50564bee3a4415be32948e414b6b8efe0cfef587b6eedd4c5726a
+  checksum: fe9f8ddacf1a3a2f0322497cc315380495ff5cab549f44e00cb87a4c89d4ce3555f14c0ee07a3890276057d342fe0eddc0dddaf058945957ea0a3d3f371b6695
   languageName: node
   linkType: hard
 
-"@yarnpkg/shell@npm:^4.0.0-rc.42":
-  version: 4.0.0-rc.42
-  resolution: "@yarnpkg/shell@npm:4.0.0-rc.42"
+"@yarnpkg/shell@npm:^4.0.0-rc.43":
+  version: 4.0.0-rc.43
+  resolution: "@yarnpkg/shell@npm:4.0.0-rc.43"
   dependencies:
-    "@yarnpkg/fslib": "npm:^3.0.0-rc.42"
-    "@yarnpkg/parsers": "npm:^3.0.0-rc.42"
+    "@yarnpkg/fslib": "npm:^3.0.0-rc.43"
+    "@yarnpkg/parsers": "npm:^3.0.0-rc.43"
     chalk: "npm:^3.0.0"
     clipanion: "npm:^3.2.0-rc.10"
     cross-spawn: "npm:7.0.3"
@@ -1138,7 +1145,7 @@ __metadata:
     tslib: "npm:^2.4.0"
   bin:
     shell: ./lib/cli.js
-  checksum: 84f60868dbd154740c5d22882e0b2c6fe1b18251ffdc08ba76cf3f30d94e70547706f8c11eadb74f1d7f30fe0766c4148d303cea4dc86cf7f1c03f30355976bb
+  checksum: 84865471c226bfccc1c1335f0d69d374c704279a53dbaa56f6bb17f8ab66cf46a841006313262f6b826499107c84866f547b2a23ec5609e869bc9c270dc2c08e
   languageName: node
   linkType: hard
 
@@ -3634,7 +3641,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8.4.21":
+"postcss@npm:^8.4.23":
   version: 8.4.23
   resolution: "postcss@npm:8.4.23"
   dependencies:
@@ -3846,9 +3853,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup@npm:^3.20.2":
-  version: 3.21.0
-  resolution: "rollup@npm:3.21.0"
+"rollup@npm:^3.21.0":
+  version: 3.21.5
+  resolution: "rollup@npm:3.21.5"
   dependencies:
     fsevents: "npm:~2.3.2"
   dependenciesMeta:
@@ -3856,7 +3863,7 @@ __metadata:
       optional: true
   bin:
     rollup: dist/bin/rollup
-  checksum: 8e30e76e0133599aa2cfab1df053aed36c165ac0b0ad261fe925ffb5732eb5fd88b827664e0e7b5024303aa9d96a4726de5de988c354d5fa642be8ae65bd8b8b
+  checksum: 5dbff757d5b016f4c882a5f5259fafe519b7598e9ee26e11148e127c70d02c37bff134e832499b7c1fdda38faab05321bb7a08a1445bdadb1cb4e76d635a94c8
   languageName: node
   linkType: hard
 
@@ -4026,13 +4033,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"solid-js@npm:^1.7.3":
-  version: 1.7.3
-  resolution: "solid-js@npm:1.7.3"
+"solid-js@npm:^1.7.5":
+  version: 1.7.5
+  resolution: "solid-js@npm:1.7.5"
   dependencies:
     csstype: "npm:^3.1.0"
     seroval: "npm:^0.5.0"
-  checksum: d1b07ebc34bfb5e5af2a01c38a35892c4f6bf8daf9ece45dfe001fe1c9892456ab9ff9f6d1bb7b49378627afec8f44919232ab4407be1968c58719491ecbeef9
+  checksum: d035090922e5653f1f9d721ef6e4c220e5d2740473e23b14cb5ed10dfdaeb96fb6c811607a445d231a610c440e5d15eea4bd5fee68338b5cb10919963309e38b
   languageName: node
   linkType: hard
 
@@ -4240,15 +4247,15 @@ __metadata:
     "@types/node": "npm:^20.1.0"
     "@typescript-eslint/eslint-plugin": "npm:^5.59.2"
     "@typescript-eslint/parser": "npm:^5.59.2"
-    "@yarnpkg/sdks": "npm:^3.0.0-rc.42"
+    "@yarnpkg/sdks": "npm:^3.0.0-rc.43"
     eslint: "npm:^8.40.0"
     eslint-plugin-solid: "npm:^0.12.1"
     eslint-plugin-unicorn: "npm:^47.0.0"
-    solid-js: "npm:^1.7.3"
+    solid-js: "npm:^1.7.5"
     typescript: "npm:^5.0.4"
-    vite: "npm:^4.3.1"
+    vite: "npm:^4.3.5"
     vite-plugin-solid: "npm:^2.7.0"
-    vite-plugin-ssr: "npm:^0.4.116"
+    vite-plugin-ssr: "npm:^0.4.123"
   languageName: unknown
   linkType: soft
 
@@ -4491,40 +4498,40 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite-plugin-ssr@npm:^0.4.116":
-  version: 0.4.116
-  resolution: "vite-plugin-ssr@npm:0.4.116"
+"vite-plugin-ssr@npm:^0.4.123":
+  version: 0.4.123
+  resolution: "vite-plugin-ssr@npm:0.4.123"
   dependencies:
     "@brillout/import": "npm:0.2.3"
     "@brillout/json-serializer": "npm:^0.5.3"
+    "@brillout/picocolors": "npm:^1.0.4"
     "@brillout/vite-plugin-import-build": "npm:^0.2.16"
     acorn: "npm:^8.0.0"
     cac: "npm:^6.0.0"
     es-module-lexer: "npm:^0.10.0"
     esbuild: "npm:^0.17.0"
     fast-glob: "npm:^3.0.0"
-    picocolors: "npm:^1.0.0"
     sirv: "npm:^2.0.0"
   peerDependencies:
     react-streaming: ">=0.3.5"
-    vite: ">=3.0.0"
+    vite: ">=3.1.0"
   peerDependenciesMeta:
     react-streaming:
       optional: true
   bin:
     vite-plugin-ssr: node/cli/bin-entry.js
-  checksum: 8b0700cf1dd29eb7198aa0bbd1e161f64fc1bfb13289f854a5092acc1165c0983a55279e789dec607ee4d6b20c67acecd3632c6d55d9de42d7c0018bda080868
+  checksum: 443cf5f50d8cb2d498aaa0eafa26efea710d4d94b0f6091d4b0438e676e4003481890ea39b5d2c4155148796a20f9b6218cf3f1bb62bc70d969cf99fc21cf8b8
   languageName: node
   linkType: hard
 
-"vite@npm:^4.3.1":
-  version: 4.3.1
-  resolution: "vite@npm:4.3.1"
+"vite@npm:^4.3.5":
+  version: 4.3.5
+  resolution: "vite@npm:4.3.5"
   dependencies:
     esbuild: "npm:^0.17.5"
     fsevents: "npm:~2.3.2"
-    postcss: "npm:^8.4.21"
-    rollup: "npm:^3.20.2"
+    postcss: "npm:^8.4.23"
+    rollup: "npm:^3.21.0"
   peerDependencies:
     "@types/node": ">= 14"
     less: "*"
@@ -4550,7 +4557,7 @@ __metadata:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: 0f1b0f873c2cb7a2467e7de9e783b48ef1eb0fbd985870645eecd3b405a01902a6292544f952016ff0f29051e275dece16cbb7d746bb0cb5dde33e9a0dbc63ee
+  checksum: d86faa0cad8365d71ec053b8d7229f3963ac5a059d42f5ba139cd300fe1101649533d0dc750c94511a5b25a01711a60f6dcde580ff44cf64f354e0bf05ad9b13
   languageName: node
   linkType: hard
 

@@ -4,24 +4,24 @@
   "main": "index.js",
   "license": "MIT",
   "type": "module",
-  "packageManager": "yarn@4.0.0-rc.42",
+  "packageManager": "yarn@4.0.0-rc.43",
   "scripts": {
     "dev": "yarn vite",
     "lint": "yarn eslint .",
     "od": "yarn outdated"
   },
   "dependencies": {
-    "solid-js": "^1.7.3",
-    "vite": "^4.3.1",
+    "solid-js": "^1.7.5",
+    "vite": "^4.3.5",
     "vite-plugin-solid": "^2.7.0",
-    "vite-plugin-ssr": "^0.4.116"
+    "vite-plugin-ssr": "^0.4.123"
   },
   "devDependencies": {
     "@types/eslint": "^8",
     "@types/node": "^20.1.0",
     "@typescript-eslint/eslint-plugin": "^5.59.2",
     "@typescript-eslint/parser": "^5.59.2",
-    "@yarnpkg/sdks": "^3.0.0-rc.42",
+    "@yarnpkg/sdks": "^3.0.0-rc.43",
     "eslint": "^8.40.0",
     "eslint-plugin-solid": "^0.12.1",
     "eslint-plugin-unicorn": "^47.0.0",
