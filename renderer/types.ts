@@ -1,14 +1,34 @@
-import type { Component } from 'solid-js'
-import type { PageContextBuiltIn } from 'vite-plugin-ssr/types'
+import type { JSX } from 'solid-js'
+import type {
+  PageContextBuiltIn,
+  PageContextBuiltInClientWithClientRouting as PageContextBuiltInClient
+} from 'vite-plugin-ssr/types'
 
-export type PageProps = {}
+import type { Config } from './+config'
 
-type Page = Component<PageProps>
+export type { Component } from 'solid-js'
 
-export type PageContext = PageContextBuiltIn<Page> & {
-  pageProps: PageProps
+type Page = (pageProps: PageProps) => JSX.Element
+type PageProps = Record<string, unknown>
+type WrapperComponent = ({ children }: { children: any }) => JSX.Element
+
+export type PageContextCommon = {
+  Page: Page
+  pageProps?: PageProps
   config: {
-    title: string
-    description?: string
+    Layout?: WrapperComponent
+    Wrapper?: WrapperComponent
   }
 }
+
+type PageContextServer = PageContextBuiltIn<Page> & PageContextCommon & {
+  config: Partial<Config>
+}
+type PageContextClient = PageContextBuiltInClient<Page> & PageContextCommon
+type PageContext = PageContextClient | PageContextServer
+
+export type { PageContextServer }
+export type { PageContextClient }
+export type { PageContext }
+export type { PageProps }
+export type { Page }
