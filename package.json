@@ -4,27 +4,27 @@
   "main": "index.js",
   "license": "MIT",
   "type": "module",
-  "packageManager": "yarn@4.0.0-rc.43",
+  "packageManager": "yarn@4.0.0-rc.48",
   "scripts": {
     "dev": "yarn vite",
     "lint": "yarn eslint .",
     "od": "yarn outdated"
   },
   "dependencies": {
-    "solid-js": "^1.7.5",
-    "vite": "^4.3.5",
+    "solid-js": "^1.7.8",
+    "vite": "^4.4.7",
     "vite-plugin-solid": "^2.7.0",
-    "vite-plugin-ssr": "^0.4.123"
+    "vite-plugin-ssr": "^0.4.133"
   },
   "devDependencies": {
-    "@types/eslint": "^8",
-    "@types/node": "^20.1.0",
-    "@typescript-eslint/eslint-plugin": "^5.59.2",
-    "@typescript-eslint/parser": "^5.59.2",
-    "@yarnpkg/sdks": "^3.0.0-rc.43",
-    "eslint": "^8.40.0",
+    "@types/eslint": "^8.44.1",
+    "@types/node": "^20.4.5",
+    "@typescript-eslint/eslint-plugin": "^6.2.1",
+    "@typescript-eslint/parser": "^6.2.1",
+    "@yarnpkg/sdks": "^3.0.0-rc.48",
+    "eslint": "^8.46.0",
     "eslint-plugin-solid": "^0.12.1",
-    "eslint-plugin-unicorn": "^47.0.0",
-    "typescript": "^5.0.4"
+    "eslint-plugin-unicorn": "^48.0.1",
+    "typescript": "^5.1.6"
   }
 }
